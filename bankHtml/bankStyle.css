@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+    background-image: url('cash.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+header {
+    background-color: #2ecc71;
+    padding: 20px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+nav {
+    background-color: #27ae60;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.link {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.hover-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: all 0.3s ease;
+    z-index: 1;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.hover-box p {
+    margin: 0;
+}
+
+.hover-box:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+.flexbox {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+}
+
+.services {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.services li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #2ecc71;
+    padding: 20px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact,
+.hours {
+    flex: 1;
+}
+
+.contact h3,
+.hours h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact p,
+.hours p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 250px;
+}
+
+.login-form button {
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #27ae60;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-form input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 250px;
+}
+
+.register-form button {
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-form button:hover {
+    background-color: #27ae60;
+}
